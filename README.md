@@ -12,8 +12,6 @@ A simple React Native application to track personal finances, focusing on income
 - **Summary View:**
   - Show a summary of total income and expenses for the current month.
   - Visual representation (pie chart) of expenses by category.
-- **Local Data Persistence:**
-  - Save and retrieve transaction data using `AsyncStorage`.
 
 ## Requirements
 
