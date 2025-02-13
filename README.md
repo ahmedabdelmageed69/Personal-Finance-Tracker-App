@@ -23,6 +23,10 @@ A simple React Native application to track personal finances, focusing on income
 - `react-native-chart-kit` for pie charts
 - `@react-native-async-storage/async-storage` for local storage
 
+## ⏳ Time Spent
+
+⌛ **Total Time Taken:** 4 hours
+
 ## Installation
 
 1. **Clone the repository:**
@@ -51,6 +55,6 @@ A simple React Native application to track personal finances, focusing on income
 
    2. For Android:
 
-   ```bash
-      npx react-native run-android
-   ```
+      ```bash
+         npx react-native run-android
+      ```
