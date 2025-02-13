@@ -1,43 +1,56 @@
-# 📊 Personal Finance Tracker App
+# Personal Finance Tracker App
 
-## 🚀 Overview
+A simple React Native application to track personal finances, focusing on income and expenses. This app allows users to add transactions, view a list of transactions, and see a summary of their finances for the current month.
 
-A simple React Native application to track income and expenses, visualize spending with a pie chart, and store transactions locally using AsyncStorage.
+## Features
 
-## 🎯 Features
+- **Add Transactions:**
+  - Form to input transaction details (type: income/expense, amount, category, date, description).
+- **Transaction List:**
+  - Display a list of added transactions.
+  - Sort and filter options based on date and type.
+- **Summary View:**
+  - Show a summary of total income and expenses for the current month.
+  - Visual representation (pie chart) of expenses by category.
+- **Local Data Persistence:**
+  - Save and retrieve transaction data using `AsyncStorage`.
 
-- ✅ **Add Transactions** (Income/Expense, Amount, Category, Date, Description)
-- ✅ **View Transactions** (List with Sorting & Filtering)
-- ✅ **Summary View** (Total Income & Expenses, Pie Chart for Categories)
-- ✅ **Local Storage** (AsyncStorage for Data Persistence)
+## Requirements
 
-## 📸 Screenshots
+- React Native
+- Node.js
+- Expo
+- `react-native-chart-kit` for pie charts
+- `@react-native-async-storage/async-storage` for local storage
 
-(Add images of key UI screens here)
-![App Screenshot](./assets/images/screeshot1.png)
-![App Screenshot](./assets/images/screenshot2.png)
-![App Screenshot](./assets/images/screenshot3.png)
+## Installation
 
-## 🏗️ Architecture
+1. **Clone the repository:**
 
-- **React Native Functional Components** (Hooks: `useState`, `useEffect`)
-- **State Management**: Local state using React Hooks
-- **AsyncStorage**: Persistent data storage
-- **React Navigation**: For screen navigation
-- **React Native Chart Kit**: For visualizing expenses
+   ```bash
+   git clone https://github.com/ahmedabdelmageed69/Personal-Finance-Tracker-App.git
+   cd personal-finance-tracker-app
 
-## 🛠️ Tech Stack
+   ```
 
-- **React Native 0.73.2**
-- **React Navigation** (for handling screen navigation)
-- **AsyncStorage** (for local data persistence)
-- **React Native Chart Kit** (for pie charts)
+2. **Install dependencies:**
 
-## 🏃‍♂️ Getting Started
+   ```bash
+   npm install
 
-### 1️⃣ Clone the Repository
+   ```
 
-```sh
-git clone https://github.com/your-username/finance-tracker.git
-cd finance-tracker
-```
+3. **Run the app:**
+
+   1. For iOS:
+
+      ```bash
+        npx react-native run-ios
+
+      ```
+
+   2. For Android:
+
+   ```bash
+      npx react-native run-android
+   ```
