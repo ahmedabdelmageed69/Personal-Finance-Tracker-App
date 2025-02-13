@@ -15,8 +15,8 @@ A simple React Native application to track income and expenses, visualize spendi
 
 (Add images of key UI screens here)
 ![App Screenshot](./assets/images/screeshot1.png)
-![App Screenshot](./assets/images/screeshot2.png)
-![App Screenshot](./assets/images/screeshot3.png)
+![App Screenshot](./assets/images/screenshot2.png)
+![App Screenshot](./assets/images/screenshot3.png)
 
 ## 🏗️ Architecture
 
