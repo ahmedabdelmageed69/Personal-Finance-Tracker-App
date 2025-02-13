@@ -56,3 +56,9 @@ A simple React Native application to track personal finances, focusing on income
       ```bash
          npx react-native run-android
       ```
+
+## 📸 Screenshots
+
+![App Screenshot](./assets/images/screeshot1.png)
+![App Screenshot](./assets/images/screeshot2.png)
+![App Screenshot](./assets/images/screeshot3.png)
