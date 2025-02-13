@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# 📊 Personal Finance Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🚀 Overview
 
-## Get started
+A simple React Native application to track income and expenses, visualize spending with a pie chart, and store transactions locally using AsyncStorage.
 
-1. Install dependencies
+## 🎯 Features
 
-   ```bash
-   npm install
-   ```
+- ✅ **Add Transactions** (Income/Expense, Amount, Category, Date, Description)
+- ✅ **View Transactions** (List with Sorting & Filtering)
+- ✅ **Summary View** (Total Income & Expenses, Pie Chart for Categories)
+- ✅ **Local Storage** (AsyncStorage for Data Persistence)
 
-2. Start the app
+## 📸 Screenshots
 
-   ```bash
-    npx expo start
-   ```
+(Add images of key UI screens here)
+![App Screenshot](./assets/images/screeshot1.png)
+![App Screenshot](./assets/images/screeshot2.png)
+![App Screenshot](./assets/images/screeshot3.png)
 
-In the output, you'll find options to open the app in a
+## 🏗️ Architecture
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native Functional Components** (Hooks: `useState`, `useEffect`)
+- **State Management**: Local state using React Hooks
+- **AsyncStorage**: Persistent data storage
+- **React Navigation**: For screen navigation
+- **React Native Chart Kit**: For visualizing expenses
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+- **React Native 0.73.2**
+- **React Navigation** (for handling screen navigation)
+- **AsyncStorage** (for local data persistence)
+- **React Native Chart Kit** (for pie charts)
 
-When you're ready, run:
+## 🏃‍♂️ Getting Started
 
-```bash
-npm run reset-project
+### 1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/your-username/finance-tracker.git
+cd finance-tracker
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
